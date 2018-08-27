@@ -7,12 +7,18 @@
 .header {
 	text-align: center;
 	padding: 2rem;
+	font-size: 16px;
 }
 
 .projects {
 	border-top: 1px solid #eee;
 	padding: 4rem 0;
 	margin-bottom: 0;
+}
+
+.description {
+	font-size: 16px;
+	margin-bottom: 3rem;
 }
 
 .video {
@@ -44,6 +50,7 @@ ol ul {
 }
 
 li {
+  margin-left: 1rem;
   margin-bottom: .5rem; 
 }
 
