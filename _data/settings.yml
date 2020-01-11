@@ -3,7 +3,7 @@ google-ID: 'UA-112060364-2'
 
 menu:
 - {name: 'Projects', folder: 'pages', file: 'projects.html'}
-- {name: 'Contact', folder: 'pages', file: 'contact.html'}
+- {name: 'Resume', folder: 'assets/pdf', file: 'resume_andrew_chen.pdf'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
