@@ -10,6 +10,6 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "ANDREW CHEN"
+title:		           "ANDREW L CHEN"
 description:	       "made with Jekyll"
 author:              "Andrew Chen"
