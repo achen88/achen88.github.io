@@ -1,0 +1,16 @@
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: 'UA-112060364-2'
+
+menu:
+- {name: 'Projects', folder: 'pages', file: 'projects.html'}
+- {name: 'Contact', folder: 'pages', file: 'contact.html'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'envelope', link: 'mailto:achen88@mit.edu'}
+
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+

@@ -1,0 +1,15 @@
+# Site Build Settings
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+
+sass:
+  sass_dir: assets/css
+  style: :nested
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           "ANDREW CHEN"
+description:	       "made with Jekyll"
+author:              "Andrew Chen"
