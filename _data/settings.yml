@@ -9,6 +9,9 @@ menu:
 social:
 - {icon: 'envelope', link: 'mailto:achen88@mit.edu'}
 
+posts:
+- {name: '', file: ''}
+
 # Customize site text
 pagination:
   next_page: 'Newer'
