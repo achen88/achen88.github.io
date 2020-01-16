@@ -1,5 +1,5 @@
 .site-header {
-  min-height: 56px;
+  min-height: 72px;
   width: $container-width;
   position: fixed;
   background-color: white;
@@ -8,7 +8,7 @@
 }
 @media (max-width: $container-width) {
   .site-header {
-      min-height: 56px;
+      min-height: 72px;
       width: 95vw;
       position: fixed;
       background-color: white;
@@ -20,15 +20,16 @@
   text-decoration: none;
 }
 .site-title {
-  font-size: 26px;
+  font-size: 34px;
   font-weight: 400;
-  line-height: 56px;
+  line-height: 72px;
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 10px;
   float: left;
 }
 .menu-list {
+  font-size: 20px;
   line-height: $header-thickness;
   float: right;
 }
@@ -59,8 +60,8 @@
       background-color: white;
       color: black;
       padding: 16px;
-      margin-top: 4px;
-      font-size: 16px;
+      margin-top: 6px;
+      font-size: 24px;
       border: none;
       cursor: pointer;
   }
@@ -77,13 +78,14 @@
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
-      margin-top: 54px;
+      margin-top: 64px;
   }
   .dropdown-content a {
       color: black;
       padding: 12px 16px;
       text-decoration: none;
       display: block;
+      font-size: 20px;
   }
   .dropdown-content a:hover {
     background-color: #f1f1f1
