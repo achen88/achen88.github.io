@@ -1,5 +1,5 @@
 .site-header {
-  min-height: 72px;
+  min-height: 64px;
   width: $container-width;
   position: fixed;
   background-color: white;
@@ -8,7 +8,7 @@
 }
 @media (max-width: $container-width) {
   .site-header {
-      min-height: 72px;
+      min-height: 64px;
       width: 95vw;
       position: fixed;
       background-color: white;
@@ -22,7 +22,7 @@
 .site-title {
   font-size: 34px;
   font-weight: 400;
-  line-height: 72px;
+  line-height: 64px;
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 10px;
@@ -59,8 +59,7 @@
   .dropbtn {
       background-color: white;
       color: black;
-      padding: 16px;
-      margin-top: 6px;
+      padding: 18px;
       font-size: 24px;
       border: none;
       cursor: pointer;
@@ -78,7 +77,7 @@
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
-      margin-top: 64px;
+      margin-top: 60px;
   }
   .dropdown-content a {
       color: black;
