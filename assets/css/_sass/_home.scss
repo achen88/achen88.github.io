@@ -1,26 +1,27 @@
 .featured-posts {
   height: 400px;
-  margin: 5px 10px 10px;
+  margin: 5px auto 10px;
   background-position-x: right;
   background-position-y: top;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  max-width: 800px;
 }
 .featured-posts h2 {
-  bottom: 0;
+  text-align: center;
+  line-height: 400px;
   margin: 0;
-  padding: 10px;
-  position: absolute;
 }
 .featured-posts h2 span {
-   display: inline-block;
-   color: white;
-   font: 28px/32px Raleway, sans-serif;
-   font-family: Raleway;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.72);
-   padding: 10px;
+  display: inline-block;
+  color: white;
+  font: 36px/48px Proxima-nova, sans-serif;
+  font-family: Proxima-nova;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 .featured-posts span a {
   color: white;
@@ -29,29 +30,18 @@
   margin: 10px;
 }
 
-/*
-  Pagination
-*/
-
-.pagination {
-  text-align: center;
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, .7);
 }
-.pagination a {
-  text-decoration: none;
-}
-.pagination-button {
-  color: #999;
-  border: 1px solid #e0e0e0;
-  padding: 15px 45px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
-}
-.pagination-active {
-  color: black;
-}
-.pagination-active:hover {
-  background-color: #e0e0e0;
+.featured-posts:hover .overlay {
+  opacity: 1;
 }
