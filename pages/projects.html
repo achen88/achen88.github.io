@@ -1,12 +1,15 @@
 ---
-layout: project
-title: kek
-date: May 1990
-image: temp.png
+layout: default
+title: Projects
 ---
-
-
-<div>
-  TEST
+<div class="page-content">
+  <ul>
+    {% for project in site.posts %}
+    <li>
+      <a href="{{ site.github.url }}{{ project.url }}">
+        <div class="project-item">{{ project.title }} ({{ project.date | date: "%b %Y"}})</div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
-
