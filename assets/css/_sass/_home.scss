@@ -10,15 +10,18 @@
 }
 .featured-posts h2 {
   text-align: center;
-  line-height: 400px;
   margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 .featured-posts h2 span {
   display: inline-block;
   color: white;
   font: 36px/48px Proxima-nova, sans-serif;
   font-family: Proxima-nova;
-  padding: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 600;
@@ -29,7 +32,6 @@
 .featured-posts h1 {
   margin: 10px;
 }
-
 .overlay {
   position: absolute;
   top: 0;
