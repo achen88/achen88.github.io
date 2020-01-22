@@ -1,0 +1,8 @@
+<figure class="image">
+  {% if include.src %}
+  <div class="video">
+    <iframe width="560" height="315" src="{{ include.src }}" frameborder="0" allowfullscreen></iframe>
+  </div>
+  {% endif %}
+  <figcaption>{{ include.caption }}</figcaption>
+</figure>
