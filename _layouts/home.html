@@ -1,19 +1,43 @@
----
-layout: default
-title: Home
----
+<!doctype html>
+<html>
 
-{% for project in site.posts %}
+{% include head.html %}
 
-{% if project.image %}
-<article>
-  <a href="{{ site.github.url }}{{ project.url }}">
-  <div class="featured-posts" style="background-image:url({{ site.github.url }}/assets/img/{{ project.image }})">
-    <div class="overlay">
-      <h2><span>{{ project.title }}</span></h2>
+<body>
+<div class="parallax">
+  <div class="parallax__layer parallax__layer--back">
+    <img class="parallax__background" src="/assets/img/background.jpg">
+  </div>
+  <div class="parallax__layer parallax__layer--base">
+    <div class="whiteout">
+      <div class="container">
+        {% include header.html %}
+      </div>
     </div>
-  </a>
-</article>
-{% endif %}
+    <div class="parallax__text">
+      <h2><span>Developer<br>Pragmatist<br>Student</span></h2>
+    </div>
+    <div class="whiteout" style="padding-top: 64px">
+      <h3>Select Projects</h3>
+      {% for project in site.posts %}
 
-{% endfor %}
+      {% if project.image %}
+      <article>
+        <a href="{{ site.github.url }}{{ project.url }}">
+          <div class="featured-posts" style="background-image:url({{ site.github.url }}/assets/img/{{ project.image }})">
+            <div class="overlay">
+              <h2><span>{{ project.title }}</span></h2>
+            </div>
+          </div>
+        </a>
+      </article>
+      {% endif %}
+
+      {% endfor %}
+
+      {% include footer.html %}
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,7 +1,6 @@
 .site-header {
   min-height: 64px;
   width: $container-width;
-  position: fixed;
   background-color: white;
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
@@ -10,7 +9,6 @@
   .site-header {
       min-height: 64px;
       width: 95vw;
-      position: fixed;
       background-color: white;
       box-shadow: 0 5px 6px -6px #bbb;
       z-index: 100;
