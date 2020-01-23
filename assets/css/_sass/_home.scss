@@ -12,7 +12,7 @@ h2 {
   text-align: center;
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: calc(50% - 32px);
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -69,7 +69,7 @@ h2 span {
   padding: 0vh 0;
 }
 .parallax__text {
-  height: calc(100vh - 128px);
+  height: calc(100vh - 192px);
 }
 .parallax__text h2 span {
   font: 56px/72px ProximaNova-Regular, sans-serif;
@@ -79,7 +79,7 @@ h2 span {
 .parallax__background {
   margin-top: 0;
   max-width: unset;
-  max-height: calc(100vh - 64px);
+  max-height: calc(100vh - 128px);
 }
 .whiteout {
   width: 100%;
